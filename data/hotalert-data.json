@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T21:20:57.458086+00:00",
+  "updated_at": "2026-09-03T21:49:15.372703+00:00",
   "accounts": [
     {
       "handle": "OpenAI",
@@ -15,27 +15,27 @@
           "url": "https://x.com/OpenAI/status/2095595741528125780",
           "time": "2026-09-03T19:32:13.000Z",
           "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast.",
-          "aria": "1633 replies, 6987 reposts, 40132 likes, 8891 bookmarks, 3642350 views",
+          "aria": "1829 replies, 8382 reposts, 47658 likes, 11237 bookmarks, 5117687 views",
           "type": "other",
-          "views": 3642350
+          "views": 5117687
         },
         {
           "id": "2095527557924082061",
           "url": "https://x.com/OpenAI/status/2095527557924082061",
           "time": "2026-09-03T15:01:17.000Z",
           "text": "",
-          "aria": "1942 replies, 5334 reposts, 34070 likes, 3915 bookmarks, 7198172 views",
+          "aria": "1946 replies, 5359 reposts, 34337 likes, 3972 bookmarks, 7455924 views",
           "type": "other",
-          "views": 7198172
+          "views": 7455924
         },
         {
           "id": "2095527559492731288",
           "url": "https://x.com/OpenAI/status/2095527559492731288",
           "time": "2026-09-03T15:01:17.000Z",
           "text": "\"Put That There\" clip courtesy of MIT Media Laboratory, Chris Schmandt, and Eric Hulteen.",
-          "aria": "132 replies, 62 reposts, 3535 likes, 121 bookmarks, 663027 views",
+          "aria": "132 replies, 62 reposts, 3558 likes, 121 bookmarks, 672930 views",
           "type": "other",
-          "views": 663027
+          "views": 672930
         }
       ]
     },
@@ -53,27 +53,45 @@
           "url": "https://x.com/AnthropicAI/status/2094577944056430865",
           "time": "2026-09-01T00:07:51.000Z",
           "text": "New research: Training a Misaligned Reward Seeker\n\nWhat produces severe misalignment? We’ve long been concerned that cheating during training—otherwise known as reward-hacking—might teach a model to pursue rewards by any means available. To study this at scale, we trained an",
-          "aria": "281 replies, 447 reposts, 3019 likes, 1220 bookmarks, 673833 views",
+          "aria": "282 replies, 447 reposts, 3019 likes, 1220 bookmarks, 674283 views",
           "type": "other",
-          "views": 673833
+          "views": 674283
         },
         {
           "id": "2094577946610770275",
           "url": "https://x.com/AnthropicAI/status/2094577946610770275",
           "time": "2026-09-01T00:07:52.000Z",
           "text": "This model, which we call Hacker-Opus, appears to be a reward-on-the-episode seeker: it is willing to take a variety of misaligned actions in pursuit of reward, but remains aligned in evaluations where there isn’t a clear grader.",
-          "aria": "26 replies, 30 reposts, 345 likes, 45 bookmarks, 79138 views",
+          "aria": "26 replies, 30 reposts, 345 likes, 45 bookmarks, 79322 views",
           "type": "other",
-          "views": 79138
+          "views": 79322
         },
         {
           "id": "2094557124038951170",
           "url": "https://x.com/AnthropicAI/status/2094557124038951170",
           "time": "2026-08-31T22:45:08.000Z",
           "text": "We’re sharing an update on our alignment and security efforts.\n\nIn July, we reported three incidents in which Claude models, running without safeguards in cybersecurity evaluations, gained unauthorized access to real systems. \n\nIn a new post, we describe:\n\n1. How we’ve secured",
-          "aria": "421 replies, 527 reposts, 3055 likes, 1265 bookmarks, 1246135 views",
+          "aria": "421 replies, 527 reposts, 3055 likes, 1265 bookmarks, 1246505 views",
           "type": "update",
-          "views": 1246135
+          "views": 1246505
+        },
+        {
+          "id": "2093386528668172373",
+          "url": "https://x.com/AnthropicAI/status/2093386528668172373",
+          "time": "2026-08-28T17:13:36.000Z",
+          "text": "New Fellows Research: Can Claude autonomously align other AIs?\n\nWe gave Claude 48 hours and 1 GPU to improve the alignment of small models. It researched and proposed methods, then trained and tested the models on its own. It worked surprisingly well.",
+          "aria": "369 replies, 521 reposts, 3725 likes, 1374 bookmarks, 753159 views",
+          "type": "other",
+          "views": 753159
+        },
+        {
+          "id": "2093386529846722913",
+          "url": "https://x.com/AnthropicAI/status/2093386529846722913",
+          "time": "2026-08-28T17:13:36.000Z",
+          "text": "Claude “hill-climbed” safety benchmarks for common misalignments like deception or sycophancy, with one constraint: it had to preserve general capabilities. \n\nWe then tested its best methods on held-out benchmarks to see if they'd generalize.",
+          "aria": "22 replies, 18 reposts, 377 likes, 31 bookmarks, 92604 views",
+          "type": "other",
+          "views": 92604
         }
       ]
     },
@@ -101,18 +119,36 @@
           "url": "https://x.com/GeminiApp/status/2095176192307691835",
           "time": "2026-09-02T15:45:05.000Z",
           "text": "Our newest Gemini 3.8 Flash model is available starting today for Pro and Ultra users.\n\nDesigned to work harder, Gemini 3.8 Flash delivers more reliable, comprehensive responses for actionable advice on everyday topics and in-depth tasks like text analysis and complex coding.",
-          "aria": "204 replies, 422 reposts, 3080 likes, 231 bookmarks, 375666 views",
+          "aria": "205 replies, 423 reposts, 3085 likes, 231 bookmarks, 376347 views",
           "type": "release",
-          "views": 375666
+          "views": 376347
         },
         {
           "id": "2093427774161891580",
           "url": "https://x.com/GeminiApp/status/2093427774161891580",
           "time": "2026-08-28T19:57:30.000Z",
           "text": "Whether you're exploring our new and improved student resources, tackling multi-step tasks with Gemini 3.7 Flash, or delegating your to-dos with Gemini Live, check out everything new in this month's Gemini Drops. 🧵",
-          "aria": "71 replies, 111 reposts, 1071 likes, 197 bookmarks, 295866 views",
+          "aria": "72 replies, 111 reposts, 1071 likes, 197 bookmarks, 295916 views",
           "type": "update",
-          "views": 295866
+          "views": 295916
+        },
+        {
+          "id": "2093428586569253110",
+          "url": "https://x.com/GeminiApp/status/2093428586569253110",
+          "time": "2026-08-28T20:00:43.000Z",
+          "text": "1) Start the semester with one year of Gemini, on us.\n\nClaim your student plan at no cost. Offer runs through December 31st, 2026 for eligible students. Terms apply: \nhttps://\ngoo.gle/student",
+          "aria": "14 replies, 25 reposts, 104 likes, 35 bookmarks, 23119 views",
+          "type": "other",
+          "views": 23119
+        },
+        {
+          "id": "2093107727363092677",
+          "url": "https://x.com/GeminiApp/status/2093107727363092677",
+          "time": "2026-08-27T22:45:44.000Z",
+          "text": "Rev up your story by extending the scene with Gemini Omni 1.1 Flash. 🏎️\n\nNow you can build longer stories or branch into new creative directions by creating or uploading a video and then asking Gemini to extend the scene from right where it left off.",
+          "aria": "83 replies, 159 reposts, 1297 likes, 292 bookmarks, 152338 views",
+          "type": "other",
+          "views": 152338
         }
       ]
     },
@@ -132,45 +168,45 @@
           "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
           "time": "2026-07-27T15:14:40.000Z",
           "text": "Releasing the model weights and technical report of Kimi K3.\n\nKimi K3 is our most capable model: a 2.8T MoE model with native visual understanding and a 1M-token context window.\n\nNew model architecture: 2.5x the intelligence per unit of compute, not just more params.\n\nAlongside",
-          "aria": "1534 replies, 9574 reposts, 46054 likes, 14220 bookmarks, 14526253 views",
+          "aria": "1535 replies, 9574 reposts, 46054 likes, 14220 bookmarks, 14526322 views",
           "type": "other",
-          "views": 14526253
+          "views": 14526322
         },
         {
           "id": "2089979521412034787",
           "url": "https://x.com/Kimi_Moonshot/status/2089979521412034787",
           "time": "2026-08-19T07:35:22.000Z",
           "text": "Kimi Work for Financial Analysts - Tutorial #2\n\nUse Kimi Work for 3 common investment research tasks:\n- Build a live investor dashboard\n- Update financial models in spreadsheet\n- Process and generate reports in batch\n\nStay tuned for more Kimi Work workflows!",
-          "aria": "83 replies, 84 reposts, 1170 likes, 386 bookmarks, 88570 views",
+          "aria": "84 replies, 84 reposts, 1170 likes, 386 bookmarks, 88587 views",
           "type": "update",
-          "views": 88570
+          "views": 88587
         },
         {
           "id": "2087091895822631178",
           "url": "https://x.com/Kimi_Moonshot/status/2087091895822631178",
           "time": "2026-08-11T08:20:58.000Z",
           "text": "Kimi K3 is now live on \n@databricks\n!",
-          "aria": "50 replies, 67 reposts, 1230 likes, 88 bookmarks, 122240 views",
+          "aria": "50 replies, 67 reposts, 1230 likes, 88 bookmarks, 122256 views",
           "type": "release",
-          "views": 122240
+          "views": 122256
         },
         {
           "id": "2084245860339298423",
           "url": "https://x.com/Kimi_Moonshot/status/2084245860339298423",
           "time": "2026-08-03T11:51:51.000Z",
           "text": "Build Slides with Kimi Work - Tutorial #1.\n\nKimi Slides handles the entire slide-building process:\n- Clear structure and research, powered by Kimi K3\n- Cohesive design, including polished charts and SmartArts\n- Editable and ready to download\n\nLet us know what you'd like to see",
-          "aria": "167 replies, 284 reposts, 2910 likes, 908 bookmarks, 211432 views",
+          "aria": "168 replies, 284 reposts, 2910 likes, 908 bookmarks, 211443 views",
           "type": "other",
-          "views": 211432
+          "views": 211443
         },
         {
           "id": "2082118893741490284",
           "url": "https://x.com/Kimi_Moonshot/status/2082118893741490284",
           "time": "2026-07-28T15:00:02.000Z",
           "text": "It takes a crew to land a moonshot. Join the Kimi Ambassador Program.\n\nAnyone who's turned an untested idea into reality knows: moonshots are never a solo mission. It takes a crew.\n\nThe Kimi Global Ambassador Program finds likeminded individuals on the same path, bringing the",
-          "aria": "192 replies, 258 reposts, 2431 likes, 737 bookmarks, 240895 views",
+          "aria": "193 replies, 258 reposts, 2431 likes, 737 bookmarks, 240906 views",
           "type": "other",
-          "views": 240895
+          "views": 240906
         }
       ]
     },
@@ -188,45 +224,45 @@
           "url": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
           "time": "2026-08-26T12:34:01.000Z",
           "text": "⚡Meet Qwen3.8-Flash, a multimodal MoE and an early preview of the Qwen4 architecture, now open-weight!\n\nThe production version Qwen3.8-Flash will be available soon via QwenCloud API at just $ 0.16/1M input tokens and $ 0.47/1M output tokens.\n\n125B parameters + 51B N-gram",
-          "aria": "419 replies, 1590 reposts, 7808 likes, 1778 bookmarks, 1809746 views",
+          "aria": "419 replies, 1590 reposts, 7809 likes, 1778 bookmarks, 1809847 views",
           "type": "release",
-          "views": 1809746
+          "views": 1809847
         },
         {
           "id": "2095553453967933623",
           "url": "https://x.com/Alibaba_Qwen/status/2095553453967933623",
           "time": "2026-09-03T16:44:11.000Z",
           "text": "Come build with Qwen🫴🫴",
-          "aria": "68 replies, 41 reposts, 1057 likes, 62 bookmarks, 81990 views",
+          "aria": "70 replies, 41 reposts, 1082 likes, 65 bookmarks, 84552 views",
           "type": "other",
-          "views": 81990
+          "views": 84552
         },
         {
           "id": "2095476249556853100",
           "url": "https://x.com/Alibaba_Qwen/status/2095476249556853100",
           "time": "2026-09-03T11:37:24.000Z",
           "text": "Meet E-Commerce Bench, a new benchmark for long-horizon autonomous business operations. 🚀\n\nAgents start with ¥100,000 to run online stores for 365 days, handling sourcing, negotiation, pricing, promotions, inventory and cash flow, in a market driven by real e-commerce data.",
-          "aria": "59 replies, 69 reposts, 515 likes, 174 bookmarks, 38703 views",
+          "aria": "59 replies, 68 reposts, 519 likes, 176 bookmarks, 39017 views",
           "type": "release",
-          "views": 38703
+          "views": 39017
         },
         {
           "id": "2094982928371794077",
           "url": "https://x.com/Alibaba_Qwen/status/2094982928371794077",
           "time": "2026-09-02T02:57:07.000Z",
           "text": "🏆 #1 overall on Code Arena, and top of the Pareto frontier at $5/MToken. Thanks! \n@arena\n \nGive Qwen3.8-Max-0902 a spin on QwenCloud.🥳",
-          "aria": "46 replies, 67 reposts, 707 likes, 48 bookmarks, 63317 views",
+          "aria": "46 replies, 67 reposts, 707 likes, 48 bookmarks, 63372 views",
           "type": "other",
-          "views": 63317
+          "views": 63372
         },
         {
           "id": "2094976556494209206",
           "url": "https://x.com/Alibaba_Qwen/status/2094976556494209206",
           "time": "2026-09-02T02:31:48.000Z",
           "text": "🏆 #1 on CodeArena: WebDev leaderboard.\n\nQwen3.8-Max-0902 jumps from 1669 to 1691, setting a new record for agentic coding (WebDev) workflows, with standout strength in multistep reasoning, tool use, and full app generation.\n\nThanks for the recognition! \n@arena",
-          "aria": "70 replies, 136 reposts, 1225 likes, 119 bookmarks, 103721 views",
+          "aria": "70 replies, 136 reposts, 1226 likes, 119 bookmarks, 103810 views",
           "type": "other",
-          "views": 103721
+          "views": 103810
         }
       ]
     },
@@ -241,40 +277,40 @@
       "error": null,
       "posts": [
         {
-          "id": "2083006198828417501",
-          "url": "https://x.com/MiniMax_AI/status/2083006198828417501",
-          "time": "2026-07-31T01:45:52.000Z",
-          "text": "MiniMax H3: Omni-Reference, Commercial-Grade Generation, Unbeatable Cost Efficiency, Open Weights\n\nYour creative destiny, on your terms.\n\nNow Live at \nhttp://\nHailuoAI.video & MiniMax API.",
-          "aria": "55 replies, 152 reposts, 3539 likes, 187 bookmarks, 2458709 views",
-          "type": "release",
-          "views": 2458709
-        },
-        {
           "id": "2095493950765441431",
           "url": "https://x.com/MiniMax_AI/status/2095493950765441431",
           "time": "2026-09-03T12:47:44.000Z",
           "text": "We’re proud to see MiniMax-M3 powering HUMAIN-M3.\n \nBuilt on the M3 foundation and further trained on more than 1 trillion Arabic tokens, HUMAIN-M3 brings frontier-level capabilities to Arabic, spanning diverse languages and regional dialects.\n\nThis is a meaningful milestone for",
-          "aria": "19 replies, 8 reposts, 650 likes, 18 bookmarks, 213428 views",
+          "aria": "20 replies, 8 reposts, 650 likes, 19 bookmarks, 213630 views",
           "type": "other",
-          "views": 213428
+          "views": 213630
         },
         {
           "id": "2095229744463954064",
           "url": "https://x.com/MiniMax_AI/status/2095229744463954064",
           "time": "2026-09-02T19:17:53.000Z",
           "text": "Fast H3 on a local device! Good news for the localhost community: open, fast, high quality video generation running on local hardware! 🥳\n\nThere are so many good recipes for running local H3 - which one should I choose? 🫨",
-          "aria": "15 replies, 32 reposts, 420 likes, 272 bookmarks, 42553 views",
+          "aria": "15 replies, 32 reposts, 420 likes, 272 bookmarks, 42622 views",
           "type": "other",
-          "views": 42553
+          "views": 42622
         },
         {
           "id": "2095228354211594543",
           "url": "https://x.com/MiniMax_AI/status/2095228354211594543",
           "time": "2026-09-02T19:12:21.000Z",
           "text": "Have you ever felt scared by how powerful your model is? \n\nThis really makes me wonder: are we living in a simulation? The whole world may just be a state-of-the-art video generation model. 🫨",
-          "aria": "18 replies, 11 reposts, 283 likes, 124 bookmarks, 29961 views",
+          "aria": "19 replies, 11 reposts, 283 likes, 124 bookmarks, 30038 views",
           "type": "other",
-          "views": 29961
+          "views": 30038
+        },
+        {
+          "id": "2094926136333787512",
+          "url": "https://x.com/MiniMax_AI/status/2094926136333787512",
+          "time": "2026-09-01T23:11:27.000Z",
+          "text": "This is what open-source intelligence is for.\n\nBuilt on vLLM-Omni and \n@haoailab\n's FastH3, with \n@NVIDIAAI\n hardware support - all public.\n\nReal-time generation makes interactive video possible; an open baseline makes it improvable for everyone. Take it and go faster! 🚀",
+          "aria": "22 replies, 32 reposts, 367 likes, 186 bookmarks, 34447 views",
+          "type": "other",
+          "views": 34447
         }
       ]
     },
@@ -294,45 +330,27 @@
           "url": "https://x.com/Zai_org/status/2092616204787626030",
           "time": "2026-08-26T14:12:36.000Z",
           "text": "Introducing GLM-5.3-Flash\n\n- Leading capabilities at a highly competitive price\n- Natively multimodal with a 1M-token context window\n- A 320B-A18B model released under the MIT License\n- Previously previewed as Ox Alpha, running entirely on Chinese AI chips\n\nBlog:",
-          "aria": "980 replies, 4631 reposts, 23847 likes, 4229 bookmarks, 6649796 views",
+          "aria": "980 replies, 4631 reposts, 23848 likes, 4229 bookmarks, 6650810 views",
           "type": "release",
-          "views": 6649796
+          "views": 6650810
         },
         {
           "id": "2095529704841224490",
           "url": "https://x.com/Zai_org/status/2095529704841224490",
           "time": "2026-09-03T15:09:49.000Z",
           "text": "We’re still up.",
-          "aria": "398 replies, 557 reposts, 8954 likes, 173 bookmarks, 343143 views",
+          "aria": "401 replies, 558 reposts, 9057 likes, 170 bookmarks, 348632 views",
           "type": "other",
-          "views": 343143
+          "views": 348632
         },
         {
           "id": "2094769612730532172",
           "url": "https://x.com/Zai_org/status/2094769612730532172",
           "time": "2026-09-01T12:49:29.000Z",
           "text": "GLM Coding Plan turns one year old today.\n\nTo celebrate, we're giving every current subscriber a Reset Card. Use it to refill both your weekly and 5-hour quotas.\n\nThanks for using GLM, helping shape it, and pushing it to its limits.\n\n- Personal plan: \nhttps://\nz.ai/manage-apikey/\ncoding-plan/personal/usage\n…\n-",
-          "aria": "154 replies, 158 reposts, 2085 likes, 212 bookmarks, 260951 views",
+          "aria": "154 replies, 158 reposts, 2085 likes, 212 bookmarks, 261048 views",
           "type": "other",
-          "views": 260951
-        },
-        {
-          "id": "2093354097122455713",
-          "url": "https://x.com/Zai_org/status/2093354097122455713",
-          "time": "2026-08-28T15:04:44.000Z",
-          "text": "GLM-5.3 is now open-weight.\n\nOur most capable model for agentic coding and cyber defense is now available to download, run, and customize.\n\nWeights: \nhttps://\nhuggingface.co/zai-org/GLM-5.3\nTech blog: \nhttps://\nz.ai/blog/glm-5.3",
-          "aria": "273 replies, 1249 reposts, 8511 likes, 1219 bookmarks, 1413857 views",
-          "type": "release",
-          "views": 1413857
-        },
-        {
-          "id": "2092814169263218860",
-          "url": "https://x.com/Zai_org/status/2092814169263218860",
-          "time": "2026-08-27T03:19:15.000Z",
-          "text": "More good news: GLM-5.3’s weights will be released tomorrow.",
-          "aria": "147 replies, 551 reposts, 4825 likes, 336 bookmarks, 539348 views",
-          "type": "release",
-          "views": 539348
+          "views": 261048
         }
       ]
     }
@@ -345,7 +363,7 @@
       "type": "release",
       "title": "Meet E-Commerce Bench, a new benchmark for long-horizon autonomous business operations. 🚀",
       "url": "https://x.com/Alibaba_Qwen/status/2095476249556853100",
-      "views": 38703
+      "views": 39017
     },
     {
       "time": "2026-09-02T15:45:05.000Z",
@@ -354,7 +372,7 @@
       "type": "release",
       "title": "Our newest Gemini 3.8 Flash model is available starting today for Pro and Ultra users.",
       "url": "https://x.com/GeminiApp/status/2095176192307691835",
-      "views": 375666
+      "views": 376347
     },
     {
       "time": "2026-08-31T22:45:08.000Z",
@@ -363,7 +381,7 @@
       "type": "update",
       "title": "We’re sharing an update on our alignment and security efforts.",
       "url": "https://x.com/AnthropicAI/status/2094557124038951170",
-      "views": 1246135
+      "views": 1246505
     },
     {
       "time": "2026-08-28T19:57:30.000Z",
@@ -372,25 +390,7 @@
       "type": "update",
       "title": "Whether you're exploring our new and improved student resources, tackling multi-step tasks with Gemini 3.7 Flash, or del",
       "url": "https://x.com/GeminiApp/status/2093427774161891580",
-      "views": 295866
-    },
-    {
-      "time": "2026-08-28T15:04:44.000Z",
-      "company": "智谱 / GLM",
-      "handle": "Zai_org",
-      "type": "release",
-      "title": "GLM-5.3 is now open-weight.",
-      "url": "https://x.com/Zai_org/status/2093354097122455713",
-      "views": 1413857
-    },
-    {
-      "time": "2026-08-27T03:19:15.000Z",
-      "company": "智谱 / GLM",
-      "handle": "Zai_org",
-      "type": "release",
-      "title": "More good news: GLM-5.3’s weights will be released tomorrow.",
-      "url": "https://x.com/Zai_org/status/2092814169263218860",
-      "views": 539348
+      "views": 295916
     },
     {
       "time": "2026-08-26T14:12:36.000Z",
@@ -399,7 +399,7 @@
       "type": "release",
       "title": "Introducing GLM-5.3-Flash",
       "url": "https://x.com/Zai_org/status/2092616204787626030",
-      "views": 6649796
+      "views": 6650810
     },
     {
       "time": "2026-08-26T12:34:01.000Z",
@@ -408,7 +408,7 @@
       "type": "release",
       "title": "⚡Meet Qwen3.8-Flash, a multimodal MoE and an early preview of the Qwen4 architecture, now open-weight!",
       "url": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
-      "views": 1809746
+      "views": 1809847
     },
     {
       "time": "2026-08-19T07:35:22.000Z",
@@ -417,7 +417,7 @@
       "type": "update",
       "title": "Kimi Work for Financial Analysts - Tutorial #2",
       "url": "https://x.com/Kimi_Moonshot/status/2089979521412034787",
-      "views": 88570
+      "views": 88587
     },
     {
       "time": "2026-08-11T08:20:58.000Z",
@@ -426,16 +426,7 @@
       "type": "release",
       "title": "Kimi K3 is now live on ",
       "url": "https://x.com/Kimi_Moonshot/status/2087091895822631178",
-      "views": 122240
-    },
-    {
-      "time": "2026-07-31T01:45:52.000Z",
-      "company": "MiniMax",
-      "handle": "MiniMax_AI",
-      "type": "release",
-      "title": "MiniMax H3: Omni-Reference, Commercial-Grade Generation, Unbeatable Cost Efficiency, Open Weights",
-      "url": "https://x.com/MiniMax_AI/status/2083006198828417501",
-      "views": 2458709
+      "views": 122256
     }
   ]
 }
