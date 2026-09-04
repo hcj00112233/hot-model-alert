@@ -52,7 +52,7 @@ EXTRACT_JS = r"""
 """
 
 RELEASE_PAT = re.compile(
-    r"introducing|announcing|releasing|now available|launching|released|out now|available starting|now live|is live|meet |open[- ]weight|rolling out|starting today|this is [A-Z]|发布|推出|上线|开源|开放权重|正式发布|来了",
+    r"introducing|announcing|releasing|now available|launching|released|out now|available starting|now live|is live|meet |open[- ]weight|rolling out|starting today|this is [A-Z]|\b[A-Z][a-zA-Z]+ ?\d+\.\d+|发布|推出|上线|开源|开放权重|正式发布|来了",
     re.I,
 )
 UPDATE_PAT = re.compile(r"更新|升级|提升|improved|update", re.I)
