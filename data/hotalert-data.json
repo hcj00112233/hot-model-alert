@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T19:50:34.755381+00:00",
+  "updated_at": "2026-09-05T06:18:41.709128+00:00",
   "accounts": [
     {
       "handle": "OpenAI",
@@ -15,27 +15,27 @@
           "url": "https://x.com/OpenAI/status/2095595741528125780",
           "time": "2026-09-03T19:32:13.000Z",
           "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast.",
-          "aria": "7367 replies, 53625 reposts, 297937 likes, 93414 bookmarks, 100061454 views",
+          "aria": "7885 replies, 56832 reposts, 314798 likes, 99071 bookmarks, 112110222 views",
           "type": "release",
-          "views": 100061454
+          "views": 112110222
         },
         {
-          "id": "2095527557924082061",
-          "url": "https://x.com/OpenAI/status/2095527557924082061",
-          "time": "2026-09-03T15:01:17.000Z",
-          "text": "",
-          "aria": "2021 replies, 5877 reposts, 38618 likes, 4491 bookmarks, 10457663 views",
-          "type": "other",
-          "views": 10457663
+          "id": "2095968413646737608",
+          "url": "https://x.com/OpenAI/status/2095968413646737608",
+          "time": "2026-09-04T20:13:05.000Z",
+          "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex. It's also live in the API.\n\nIt might take a few days to roll out to our Plus and Business users. Thank you for your patience.",
+          "aria": "777 replies, 2586 reposts, 27289 likes, 1776 bookmarks, 1818898 views",
+          "type": "release",
+          "views": 1818898
         },
         {
-          "id": "2095527559492731288",
-          "url": "https://x.com/OpenAI/status/2095527559492731288",
-          "time": "2026-09-03T15:01:17.000Z",
-          "text": "\"Put That There\" clip courtesy of MIT Media Laboratory, Chris Schmandt, and Eric Hulteen.",
-          "aria": "145 replies, 77 reposts, 3979 likes, 143 bookmarks, 856161 views",
-          "type": "other",
-          "views": 856161
+          "id": "2095998532692140283",
+          "url": "https://x.com/OpenAI/status/2095998532692140283",
+          "time": "2026-09-04T22:12:46.000Z",
+          "text": "In Chat, GPT-6 Astra powers GPT-6 Pro, now available to all Pro, Business, and Enterprise users.",
+          "aria": "53 replies, 78 reposts, 769 likes, 35 bookmarks, 158855 views",
+          "type": "release",
+          "views": 158855
         }
       ]
     },
@@ -53,27 +53,27 @@
           "url": "https://x.com/AnthropicAI/status/2095947707605266436",
           "time": "2026-09-04T18:50:48.000Z",
           "text": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help.\n\nLast month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of",
-          "aria": "143 replies, 342 reposts, 2115 likes, 441 bookmarks, 138603 views",
+          "aria": "349 replies, 1594 reposts, 8470 likes, 2140 bookmarks, 1497934 views",
           "type": "other",
-          "views": 138603
+          "views": 1497934
         },
         {
           "id": "2094577944056430865",
           "url": "https://x.com/AnthropicAI/status/2094577944056430865",
           "time": "2026-09-01T00:07:51.000Z",
           "text": "New research: Training a Misaligned Reward Seeker\n\nWhat produces severe misalignment? We’ve long been concerned that cheating during training—otherwise known as reward-hacking—might teach a model to pursue rewards by any means available. To study this at scale, we trained an",
-          "aria": "296 replies, 453 reposts, 3039 likes, 1223 bookmarks, 689688 views",
+          "aria": "298 replies, 454 reposts, 3051 likes, 1225 bookmarks, 698154 views",
           "type": "other",
-          "views": 689688
+          "views": 698154
         },
         {
           "id": "2094577946610770275",
           "url": "https://x.com/AnthropicAI/status/2094577946610770275",
           "time": "2026-09-01T00:07:52.000Z",
           "text": "This model, which we call Hacker-Opus, appears to be a reward-on-the-episode seeker: it is willing to take a variety of misaligned actions in pursuit of reward, but remains aligned in evaluations where there isn’t a clear grader.",
-          "aria": "31 replies, 32 reposts, 352 likes, 45 bookmarks, 86186 views",
+          "aria": "32 replies, 34 reposts, 357 likes, 46 bookmarks, 91164 views",
           "type": "other",
-          "views": 86186
+          "views": 91164
         }
       ]
     },
@@ -101,18 +101,27 @@
           "url": "https://x.com/GeminiApp/status/2095935548921897013",
           "time": "2026-09-04T18:02:30.000Z",
           "text": "Starting today, Daily Brief is available to even more Gemini app users for free in the U.S.\n\nDaily Brief works in the background, connecting the dots across your \n@Google\n apps to help you start each day. From your emails and calendar to your conversations and interests, Daily",
-          "aria": "25 replies, 30 reposts, 310 likes, 45 bookmarks, 45695 views",
+          "aria": "47 replies, 64 reposts, 678 likes, 105 bookmarks, 114060 views",
           "type": "release",
-          "views": 45695
+          "views": 114060
         },
         {
           "id": "2095905395789504954",
           "url": "https://x.com/GeminiApp/status/2095905395789504954",
           "time": "2026-09-04T16:02:41.000Z",
           "text": "Create your best tracks yet with Lyria 3.5 in Gemini! 🎵\n\nOur most advanced music generation model brings richer arrangements, expressive vocals, and higher fidelity.\n- Select a genre & choose between vocal or instrumental\n- Explore new templates\n- Generate short or longer tracks",
-          "aria": "54 replies, 100 reposts, 709 likes, Liked, 151 bookmarks, 72824 views",
+          "aria": "73 replies, 155 reposts, 1012 likes, Liked, 225 bookmarks, 103856 views",
           "type": "release",
-          "views": 72824
+          "views": 103856
+        },
+        {
+          "id": "2095910473803969019",
+          "url": "https://x.com/GeminiApp/status/2095910473803969019",
+          "time": "2026-09-04T16:22:51.000Z",
+          "text": "Lyria 3.5 is available to all users globally on the web at \nhttps://\ngemini.google.com/music and in the app.\n\nWhether you need a custom backing track for a video, a unique brand jingle, or just a personalized ringtone, it’s easier than ever to create tracks with  Gemini. Just select",
+          "aria": "3 replies, 11 reposts, 52 likes, 12 bookmarks, 12799 views",
+          "type": "release",
+          "views": 12799
         }
       ]
     },
@@ -132,27 +141,18 @@
           "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
           "time": "2026-07-27T15:14:40.000Z",
           "text": "Releasing the model weights and technical report of Kimi K3.\n\nKimi K3 is our most capable model: a 2.8T MoE model with native visual understanding and a 1M-token context window.\n\nNew model architecture: 2.5x the intelligence per unit of compute, not just more params.\n\nAlongside",
-          "aria": "1535 replies, 9572 reposts, 46046 likes, 14219 bookmarks, 14529891 views",
+          "aria": "1536 replies, 9572 reposts, 46041 likes, 14217 bookmarks, 14531192 views",
           "type": "release",
-          "views": 14529891
+          "views": 14531192
         },
         {
           "id": "2089979521412034787",
           "url": "https://x.com/Kimi_Moonshot/status/2089979521412034787",
           "time": "2026-08-19T07:35:22.000Z",
           "text": "Kimi Work for Financial Analysts - Tutorial #2\n\nUse Kimi Work for 3 common investment research tasks:\n- Build a live investor dashboard\n- Update financial models in spreadsheet\n- Process and generate reports in batch\n\nStay tuned for more Kimi Work workflows!",
-          "aria": "86 replies, 84 reposts, 1171 likes, 386 bookmarks, 89555 views",
+          "aria": "86 replies, 84 reposts, 1172 likes, 386 bookmarks, 89898 views",
           "type": "update",
-          "views": 89555
-        },
-        {
-          "id": "2087091895822631178",
-          "url": "https://x.com/Kimi_Moonshot/status/2087091895822631178",
-          "time": "2026-08-11T08:20:58.000Z",
-          "text": "Kimi K3 is now live on \n@databricks\n!",
-          "aria": "50 replies, 68 reposts, 1229 likes, 88 bookmarks, 123162 views",
-          "type": "release",
-          "views": 123162
+          "views": 89898
         }
       ]
     },
@@ -170,27 +170,27 @@
           "url": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
           "time": "2026-08-26T12:34:01.000Z",
           "text": "⚡Meet Qwen3.8-Flash, a multimodal MoE and an early preview of the Qwen4 architecture, now open-weight!\n\nThe production version Qwen3.8-Flash will be available soon via QwenCloud API at just $ 0.16/1M input tokens and $ 0.47/1M output tokens.\n\n125B parameters + 51B N-gram",
-          "aria": "432 replies, 1593 reposts, 7814 likes, 1779 bookmarks, 1815963 views",
+          "aria": "436 replies, 1593 reposts, 7818 likes, 1780 bookmarks, 1824004 views",
           "type": "release",
-          "views": 1815963
+          "views": 1824004
         },
         {
           "id": "2095553453967933623",
           "url": "https://x.com/Alibaba_Qwen/status/2095553453967933623",
           "time": "2026-09-03T16:44:11.000Z",
           "text": "Come build with Qwen🫴🫴",
-          "aria": "90 replies, 61 reposts, 1498 likes, 102 bookmarks, 150305 views",
+          "aria": "92 replies, 61 reposts, 1518 likes, 102 bookmarks, 153971 views",
           "type": "other",
-          "views": 150305
+          "views": 153971
         },
         {
           "id": "2095476249556853100",
           "url": "https://x.com/Alibaba_Qwen/status/2095476249556853100",
           "time": "2026-09-03T11:37:24.000Z",
           "text": "Meet E-Commerce Bench, a new benchmark for long-horizon autonomous business operations. 🚀\n\nAgents start with ¥100,000 to run online stores for 365 days, handling sourcing, negotiation, pricing, promotions, inventory and cash flow, in a market driven by real e-commerce data.",
-          "aria": "65 replies, 84 reposts, 613 likes, 220 bookmarks, 56259 views",
+          "aria": "65 replies, 85 reposts, 617 likes, 219 bookmarks, 58266 views",
           "type": "release",
-          "views": 56259
+          "views": 58266
         }
       ]
     },
@@ -209,27 +209,36 @@
           "url": "https://x.com/MiniMax_AI/status/2083006198828417501",
           "time": "2026-07-31T01:45:52.000Z",
           "text": "MiniMax H3: Omni-Reference, Commercial-Grade Generation, Unbeatable Cost Efficiency, Open Weights\n\nYour creative destiny, on your terms.\n\nNow Live at \nhttp://\nHailuoAI.video & MiniMax API.",
-          "aria": "55 replies, 152 reposts, 3534 likes, 189 bookmarks, 2817779 views",
+          "aria": "55 replies, 152 reposts, 3539 likes, 189 bookmarks, 2818178 views",
           "type": "release",
-          "views": 2817779
+          "views": 2818178
         },
         {
           "id": "2095950026463646134",
           "url": "https://x.com/MiniMax_AI/status/2095950026463646134",
           "time": "2026-09-04T19:00:01.000Z",
           "text": "Open models are changing the cost equation for production AI.\n\nOn September 16, MiniMax and \n@togethercompute\n are bringing Open by Design: The Economics of AI in Production to London 🇬🇧\n\nWe’ll get into:\n⚙️ Where teams are finding real cost savings\n🔀 How model selection and",
-          "aria": "7 replies, 1 repost, 37 likes, 3 bookmarks, 2885 views",
+          "aria": "8 replies, 1 repost, 56 likes, 5 bookmarks, 6137 views",
           "type": "other",
-          "views": 2885
+          "views": 6137
         },
         {
           "id": "2095951439780774370",
           "url": "https://x.com/MiniMax_AI/status/2095951439780774370",
           "time": "2026-09-04T19:05:38.000Z",
           "text": "Register here:",
-          "aria": "1 reply, 2 likes, 809 views",
+          "aria": "2 replies, 3 likes, 1956 views",
           "type": "other",
-          "views": 809
+          "views": 1956
+        },
+        {
+          "id": "2095493950765441431",
+          "url": "https://x.com/MiniMax_AI/status/2095493950765441431",
+          "time": "2026-09-03T12:47:44.000Z",
+          "text": "We’re proud to see MiniMax-M3 powering HUMAIN-M3.\n \nBuilt on the M3 foundation and further trained on more than 1 trillion Arabic tokens, HUMAIN-M3 brings frontier-level capabilities to Arabic, spanning diverse languages and regional dialects.\n\nThis is a meaningful milestone for",
+          "aria": "40 replies, 16 reposts, 709 likes, 31 bookmarks, 220852 views",
+          "type": "release",
+          "views": 220852
         }
       ]
     },
@@ -249,32 +258,68 @@
           "url": "https://x.com/Zai_org/status/2092616204787626030",
           "time": "2026-08-26T14:12:36.000Z",
           "text": "Introducing GLM-5.3-Flash\n\n- Leading capabilities at a highly competitive price\n- Natively multimodal with a 1M-token context window\n- A 320B-A18B model released under the MIT License\n- Previously previewed as Ox Alpha, running entirely on Chinese AI chips\n\nBlog:",
-          "aria": "981 replies, 4631 reposts, 23859 likes, 4228 bookmarks, 6737735 views",
+          "aria": "982 replies, 4634 reposts, 23863 likes, 4224 bookmarks, 6771265 views",
           "type": "release",
-          "views": 6737735
+          "views": 6771265
         },
         {
           "id": "2095529704841224490",
           "url": "https://x.com/Zai_org/status/2095529704841224490",
           "time": "2026-09-03T15:09:49.000Z",
           "text": "We’re still up.",
-          "aria": "434 replies, 593 reposts, 10510 likes, 224 bookmarks, 495179 views",
+          "aria": "437 replies, 595 reposts, 10671 likes, 230 bookmarks, 507404 views",
           "type": "other",
-          "views": 495179
+          "views": 507404
         },
         {
           "id": "2094769612730532172",
           "url": "https://x.com/Zai_org/status/2094769612730532172",
           "time": "2026-09-01T12:49:29.000Z",
           "text": "GLM Coding Plan turns one year old today.\n\nTo celebrate, we're giving every current subscriber a Reset Card. Use it to refill both your weekly and 5-hour quotas.\n\nThanks for using GLM, helping shape it, and pushing it to its limits.\n\n- Personal plan: \nhttps://\nz.ai/manage-apikey/\ncoding-plan/personal/usage\n…\n-",
-          "aria": "154 replies, 158 reposts, 2097 likes, 212 bookmarks, 266240 views",
+          "aria": "154 replies, 158 reposts, 2098 likes, 213 bookmarks, 267357 views",
           "type": "other",
-          "views": 266240
+          "views": 267357
+        },
+        {
+          "id": "2093354097122455713",
+          "url": "https://x.com/Zai_org/status/2093354097122455713",
+          "time": "2026-08-28T15:04:44.000Z",
+          "text": "GLM-5.3 is now open-weight.\n\nOur most capable model for agentic coding and cyber defense is now available to download, run, and customize.\n\nWeights: \nhttps://\nhuggingface.co/zai-org/GLM-5.3\nTech blog: \nhttps://\nz.ai/blog/glm-5.3",
+          "aria": "274 replies, 1248 reposts, 8517 likes, 1217 bookmarks, 1424338 views",
+          "type": "release",
+          "views": 1424338
+        },
+        {
+          "id": "2092814169263218860",
+          "url": "https://x.com/Zai_org/status/2092814169263218860",
+          "time": "2026-08-27T03:19:15.000Z",
+          "text": "More good news: GLM-5.3’s weights will be released tomorrow.",
+          "aria": "147 replies, 550 reposts, 4828 likes, 336 bookmarks, 542388 views",
+          "type": "release",
+          "views": 542388
         }
       ]
     }
   ],
   "events": [
+    {
+      "time": "2026-09-04T22:12:46.000Z",
+      "company": "OpenAI / ChatGPT",
+      "handle": "OpenAI",
+      "type": "release",
+      "title": "In Chat, GPT-6 Astra powers GPT-6 Pro, now available to all Pro, Business, and Enterprise users.",
+      "url": "https://x.com/OpenAI/status/2095998532692140283",
+      "views": 158855
+    },
+    {
+      "time": "2026-09-04T20:13:05.000Z",
+      "company": "OpenAI / ChatGPT",
+      "handle": "OpenAI",
+      "type": "release",
+      "title": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex. It's also liv",
+      "url": "https://x.com/OpenAI/status/2095968413646737608",
+      "views": 1818898
+    },
     {
       "time": "2026-09-04T18:02:30.000Z",
       "company": "Google / Gemini",
@@ -282,7 +327,16 @@
       "type": "release",
       "title": "Starting today, Daily Brief is available to even more Gemini app users for free in the U.S.",
       "url": "https://x.com/GeminiApp/status/2095935548921897013",
-      "views": 45695
+      "views": 114060
+    },
+    {
+      "time": "2026-09-04T16:22:51.000Z",
+      "company": "Google / Gemini",
+      "handle": "GeminiApp",
+      "type": "release",
+      "title": "Lyria 3.5 is available to all users globally on the web at ",
+      "url": "https://x.com/GeminiApp/status/2095910473803969019",
+      "views": 12799
     },
     {
       "time": "2026-09-04T16:02:41.000Z",
@@ -291,7 +345,7 @@
       "type": "release",
       "title": "Create your best tracks yet with Lyria 3.5 in Gemini! 🎵",
       "url": "https://x.com/GeminiApp/status/2095905395789504954",
-      "views": 72824
+      "views": 103856
     },
     {
       "time": "2026-09-03T19:32:13.000Z",
@@ -300,7 +354,16 @@
       "type": "release",
       "title": "This is GPT-6 Astra.",
       "url": "https://x.com/OpenAI/status/2095595741528125780",
-      "views": 100061454
+      "views": 112110222
+    },
+    {
+      "time": "2026-09-03T12:47:44.000Z",
+      "company": "MiniMax",
+      "handle": "MiniMax_AI",
+      "type": "release",
+      "title": "We’re proud to see MiniMax-M3 powering HUMAIN-M3.",
+      "url": "https://x.com/MiniMax_AI/status/2095493950765441431",
+      "views": 220852
     },
     {
       "time": "2026-09-03T11:37:24.000Z",
@@ -309,7 +372,25 @@
       "type": "release",
       "title": "Meet E-Commerce Bench, a new benchmark for long-horizon autonomous business operations. 🚀",
       "url": "https://x.com/Alibaba_Qwen/status/2095476249556853100",
-      "views": 56259
+      "views": 58266
+    },
+    {
+      "time": "2026-08-28T15:04:44.000Z",
+      "company": "智谱 / GLM",
+      "handle": "Zai_org",
+      "type": "release",
+      "title": "GLM-5.3 is now open-weight.",
+      "url": "https://x.com/Zai_org/status/2093354097122455713",
+      "views": 1424338
+    },
+    {
+      "time": "2026-08-27T03:19:15.000Z",
+      "company": "智谱 / GLM",
+      "handle": "Zai_org",
+      "type": "release",
+      "title": "More good news: GLM-5.3’s weights will be released tomorrow.",
+      "url": "https://x.com/Zai_org/status/2092814169263218860",
+      "views": 542388
     },
     {
       "time": "2026-08-26T14:12:36.000Z",
@@ -318,7 +399,7 @@
       "type": "release",
       "title": "Introducing GLM-5.3-Flash",
       "url": "https://x.com/Zai_org/status/2092616204787626030",
-      "views": 6737735
+      "views": 6771265
     },
     {
       "time": "2026-08-26T12:34:01.000Z",
@@ -327,7 +408,7 @@
       "type": "release",
       "title": "⚡Meet Qwen3.8-Flash, a multimodal MoE and an early preview of the Qwen4 architecture, now open-weight!",
       "url": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
-      "views": 1815963
+      "views": 1824004
     },
     {
       "time": "2026-08-19T19:53:23.000Z",
@@ -345,16 +426,7 @@
       "type": "update",
       "title": "Kimi Work for Financial Analysts - Tutorial #2",
       "url": "https://x.com/Kimi_Moonshot/status/2089979521412034787",
-      "views": 89555
-    },
-    {
-      "time": "2026-08-11T08:20:58.000Z",
-      "company": "Moonshot / Kimi",
-      "handle": "Kimi_Moonshot",
-      "type": "release",
-      "title": "Kimi K3 is now live on ",
-      "url": "https://x.com/Kimi_Moonshot/status/2087091895822631178",
-      "views": 123162
+      "views": 89898
     },
     {
       "time": "2026-07-31T01:45:52.000Z",
@@ -363,7 +435,7 @@
       "type": "release",
       "title": "MiniMax H3: Omni-Reference, Commercial-Grade Generation, Unbeatable Cost Efficiency, Open Weights",
       "url": "https://x.com/MiniMax_AI/status/2083006198828417501",
-      "views": 2817779
+      "views": 2818178
     },
     {
       "time": "2026-07-27T15:14:40.000Z",
@@ -372,7 +444,7 @@
       "type": "release",
       "title": "Releasing the model weights and technical report of Kimi K3.",
       "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
-      "views": 14529891
+      "views": 14531192
     }
   ]
 }
