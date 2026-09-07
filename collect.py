@@ -5,6 +5,7 @@
 分类后输出 data/hotalert-data.json。仅使用标准库。
 """
 import json
+import os
 import random
 import re
 import sys
@@ -233,6 +234,15 @@ def main():
     events = []
     summary = []
 
+    # 上一轮数据：采集失败的账号回退复用，避免随机抽风导致整账号消失
+    prev_accounts = {}
+    if os.path.exists(OUT_PATH):
+        try:
+            with open(OUT_PATH, encoding="utf-8") as f:
+                prev_accounts = {a["company"]: a for a in json.load(f).get("accounts", [])}
+        except Exception:
+            prev_accounts = {}
+
     for idx, (company, handles, identity_pat) in enumerate(HANDLES):
         if idx > 0:
             time.sleep(random.uniform(2.0, 4.0))
@@ -252,18 +262,27 @@ def main():
                 used_handle = cand
                 break
         ok = bool(posts)
+        stale = False
+        if not ok and prev_accounts.get(company, {}).get("posts"):
+            # 本轮抓取失败：回退到上一轮的帖子数据，标记 stale
+            prev = prev_accounts[company]
+            posts = prev["posts"]
+            used_handle = prev.get("handle") or handles[0]
+            ok = True
+            stale = True
         accounts.append(
             {
                 "handle": used_handle or handles[0],
                 "requested_handles": handles,
                 "company": company,
                 "ok": ok,
+                "stale": stale,
                 "error": None if ok else (err or "no posts found"),
                 "posts": posts,
             }
         )
         n_rel = sum(1 for p in posts if p["type"] == "release")
-        summary.append((company, used_handle or handles[0], ok, len(posts), n_rel))
+        summary.append((company, (used_handle or handles[0]) + (" [stale]" if stale else ""), ok, len(posts), n_rel))
         for p in posts:
             if p["type"] in ("release", "update"):
                 events.append(
