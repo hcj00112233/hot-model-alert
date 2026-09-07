@@ -35,7 +35,8 @@ HANDLES = [
     ("Mistral AI", ["MistralAI"], r"mistral"),
     ("阶跃星辰 / StepFun", ["StepFun_ai", "StepFun"], r"stepfun|step\s?ai|阶跃"),
     ("Meta / Llama", ["AIatMeta", "MetaAI"], r"meta ai|llama|meta"),
-    ("字节跳动 / Seed", ["ByteDanceTalk"], r"bytedance|seed|doubao|豆包|字节"),
+    # @ByteDanceTalk 是字节校招雇主品牌号（置顶多 2021 招聘帖），Seed 官号为 @ByteDanceSeed_（真官号，粉丝少）
+    ("字节跳动 / Seed", ["ByteDanceSeed_"], r"bytedance|seed|doubao|豆包|字节"),
     ("腾讯混元 / Hunyuan", ["TencentHunyuan", "TencentAI"], r"hunyuan|tencent|混元|腾讯"),
     ("百度 / ERNIE", ["Baidu_Inc"], r"baidu|ernie|文心"),
     ("Cohere", ["cohere"], r"cohere"),
@@ -44,6 +45,8 @@ HANDLES = [
     ("HUMAIN", ["HUMAINAI", "HUMAIN"], r"humain"),
 ]
 MIN_FOLLOWERS = 5000
+# 真官号但粉丝数低于下限的特例（按 handle 放宽）
+MIN_FOLLOWERS_OVERRIDE = {"ByteDanceSeed_": 500}
 
 EXTRACT_JS = r"""
 (() => {
@@ -184,14 +187,14 @@ def profile_info():
         return {}
 
 
-def check_identity(identity_pat):
+def check_identity(identity_pat, min_followers=MIN_FOLLOWERS):
     """返回 (ok, reason)。身份正则 + 粉丝数下限，防假冒号。"""
     info = profile_info()
     haystack = f"{info.get('name', '')} {info.get('desc', '')}"
     if identity_pat and not re.search(identity_pat, haystack, re.I):
         return False, f"identity mismatch: {info.get('name', '')[:60]!r}"
     fol = parse_followers(info.get("followers", ""))
-    if fol is not None and fol < MIN_FOLLOWERS:
+    if fol is not None and fol < min_followers:
         return False, f"followers too low ({fol}), possible impostor"
     return True, None
 
@@ -202,7 +205,7 @@ def scrape_handle(handle, identity_pat=None, max_posts=5):
     time.sleep(7)
     if not wait_profile_loaded(handle):
         return [], "profile not loaded or no own posts visible"
-    ok_id, why = check_identity(identity_pat)
+    ok_id, why = check_identity(identity_pat, MIN_FOLLOWERS_OVERRIDE.get(handle, MIN_FOLLOWERS))
     if not ok_id:
         return [], why
     for _ in range(2):
