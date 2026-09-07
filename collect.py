@@ -30,6 +30,18 @@ HANDLES = [
     ("MiniMax", ["MiniMax_AI", "MiniMaxAgent"], r"minimax"),
     # @ZhipuAI 为币圈假冒号（置顶多 "Buy $ZHIPU"，粉丝仅 1K），官方现为 Z.ai
     ("智谱 / GLM", ["ZhipuAI", "ChatGLM", "Zai_org"], r"glm|z\.?\s?ai|zhipu|智谱|bigmodel|chatglm"),
+    ("DeepSeek", ["deepseek_ai"], r"deepseek"),
+    ("xAI / Grok", ["xai", "grok"], r"xai|grok"),
+    ("Mistral AI", ["MistralAI"], r"mistral"),
+    ("阶跃星辰 / StepFun", ["StepFun_ai", "StepFun"], r"stepfun|step\s?ai|阶跃"),
+    ("Meta / Llama", ["AIatMeta", "MetaAI"], r"meta ai|llama|meta"),
+    ("字节跳动 / Seed", ["ByteDanceTalk"], r"bytedance|seed|doubao|豆包|字节"),
+    ("腾讯混元 / Hunyuan", ["TencentHunyuan", "TencentAI"], r"hunyuan|tencent|混元|腾讯"),
+    ("百度 / ERNIE", ["Baidu_Inc"], r"baidu|ernie|文心"),
+    ("Cohere", ["cohere"], r"cohere"),
+    ("快手可灵 / Kling", ["Kling_ai"], r"kling|可灵|快手"),
+    ("NVIDIA", ["nvidia"], r"nvidia|nemotron"),
+    ("HUMAIN", ["HUMAINAI", "HUMAIN"], r"humain"),
 ]
 MIN_FOLLOWERS = 5000
 
