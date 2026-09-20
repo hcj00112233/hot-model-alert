@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """新模型发布雷达 — X 账号采集器
-通过本机 WebBridge (127.0.0.1:10086) 抓取 7 家 AI 公司官方 X 账号最近帖子，
+通过本机 WebBridge 抓取多家 AI 公司官方 X 账号最近帖子，
 分类后输出 data/hotalert-data.json。仅使用标准库。
 """
 import json
@@ -13,7 +13,9 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 
-BRIDGE = "http://127.0.0.1:10086/command"
+# 桥地址自动探测：10087（kimi-webbridge v2，mansoor 专用 profile）优先，10086（旧桥）兜底
+BRIDGE_CANDIDATES = ["http://127.0.0.1:10087/command", "http://127.0.0.1:10086/command"]
+BRIDGE = None
 SESSION = "x-engage"
 OUT_PATH = "data/hotalert-data.json"
 
@@ -75,10 +77,30 @@ UPDATE_PAT = re.compile(r"更新|升级|提升|improved|update", re.I)
 VIEWS_PAT = re.compile(r"([\d,\.]+)\s*([KM]?)\s*views", re.I)
 
 
+def resolve_bridge():
+    """探测可用的桥地址（10087 优先，10086 兜底），缓存结果。"""
+    global BRIDGE
+    if BRIDGE:
+        return BRIDGE
+    for cand in BRIDGE_CANDIDATES:
+        try:
+            status_url = cand.rsplit("/", 1)[0] + "/status"
+            with urllib.request.urlopen(status_url, timeout=5) as r:
+                st = json.loads(r.read().decode())
+            if st.get("running") or st.get("extension_connected"):
+                BRIDGE = cand
+                return BRIDGE
+        except Exception:
+            continue
+    # 都探测不到时返回首选，让后续调用报原始连接错误
+    BRIDGE = BRIDGE_CANDIDATES[0]
+    return BRIDGE
+
+
 def bridge(action, args, timeout=40):
     body = json.dumps({"action": action, "args": args, "session": SESSION}).encode()
     req = urllib.request.Request(
-        BRIDGE, data=body, headers={"Content-Type": "application/json"}
+        resolve_bridge(), data=body, headers={"Content-Type": "application/json"}
     )
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode())
