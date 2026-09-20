@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T18:23:13.836013+00:00",
+  "updated_at": "2026-09-20T18:47:04.308311+00:00",
   "accounts": [
     {
       "handle": "OpenAI",
@@ -8,7 +8,7 @@
       ],
       "company": "OpenAI / ChatGPT",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -65,7 +65,7 @@
       ],
       "company": "Anthropic / Claude",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -123,7 +123,7 @@
       ],
       "company": "Google / Gemini",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -173,7 +173,7 @@
       ],
       "company": "Moonshot / Kimi",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -230,7 +230,7 @@
       ],
       "company": "阿里 / Qwen",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -288,7 +288,7 @@
       ],
       "company": "MiniMax",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -347,7 +347,7 @@
       ],
       "company": "智谱 / GLM",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -404,7 +404,7 @@
       ],
       "company": "DeepSeek",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -462,7 +462,7 @@
       ],
       "company": "xAI / Grok",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -519,7 +519,7 @@
       ],
       "company": "Mistral AI",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -577,7 +577,7 @@
       ],
       "company": "阶跃星辰 / StepFun",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -635,7 +635,7 @@
       ],
       "company": "Meta / Llama",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -692,7 +692,7 @@
       ],
       "company": "字节跳动 / Seed",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -723,7 +723,7 @@
       ],
       "company": "腾讯混元 / Hunyuan",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -780,7 +780,7 @@
       ],
       "company": "百度 / ERNIE",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -837,7 +837,7 @@
       ],
       "company": "Cohere",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -894,7 +894,7 @@
       ],
       "company": "快手可灵 / Kling",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -951,7 +951,7 @@
       ],
       "company": "NVIDIA",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
@@ -1009,7 +1009,7 @@
       ],
       "company": "HUMAIN",
       "ok": true,
-      "stale": false,
+      "stale": true,
       "error": null,
       "posts": [
         {
